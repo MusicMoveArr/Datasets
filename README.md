@@ -3,7 +3,7 @@ Datasets of MusicBrainz, Tidal, Spotify
 
 These datasets contain zero modifications from myself, they're straight from the source
 
-You can use these tables for MiniMedia's database, it will save you huge amounts of time calling the API's yourself
+You can use these tables for MiniMedia's database, it will save you huge amounts of time, instead calling the API's yourself
 
 Tidal, Spotify datasets were obtained through their API, took months of calling their API's 24/7
 
