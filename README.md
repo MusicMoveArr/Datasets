@@ -1,4 +1,4 @@
-# Datasets
+# Dataset of June 07 2025
 Datasets of MusicBrainz, Tidal, Spotify
 
 These datasets contain zero modifications from myself, they're straight from the source
@@ -15,16 +15,6 @@ Unpacked 44.6GB
 
 Loving the work I do? buy me a coffee https://buymeacoffee.com/musicmovearr
 
-# FAQ:
-## Why is Spotify's dataset so "small" compared to MusicBrainz? 
-Spotify has a pain in the ass rate limit, I can only call their API every 10seconds to not trigger their rate limiter too fast and then it will block the API key for ~15hours...
-
-Plus keep in mind that the dataset of Spotify is not complete, I can only fetch ~500 artists in a day...
-
-## Why is Tidal's dataset so "small" to MusicBrainz? 
-Tidal's api rate limiter is alright but I can only make ~200 API calls per (15 minutes?), it's not super fast but compared to spotify it doesn't block me for ~15hours
-
-Plus keep in mind that the dataset of Tidal is not complete
 
 # MusicBrainz
 You can officially download it here: https://metabrainz.org/datasets/postgres-dumps#musicbrainz
@@ -61,3 +51,14 @@ Artists: 118k
 Albums: 403k
 
 Tracks: 2.5mil
+
+# FAQ:
+## Why is Spotify's dataset so "small" compared to MusicBrainz? 
+Spotify has a pain in the ass rate limit, I can only call their API every 10seconds to not trigger their rate limiter too fast and then it will block the API key for ~15hours...
+
+Plus keep in mind that the dataset of Spotify is not complete, I can only fetch ~500 artists in a day...
+
+## Why is Tidal's dataset so "small" to MusicBrainz? 
+Tidal's api rate limiter is alright but I can only make ~200 API calls per (15 minutes?), it's not super fast but compared to spotify it doesn't block me for ~15hours
+
+Plus keep in mind that the dataset of Tidal is not complete
