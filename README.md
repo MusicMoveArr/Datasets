@@ -1,3 +1,67 @@
+# Dataset of July 05 2025
+Datasets of MusicBrainz, Tidal, Spotify, Deezer
+
+You can use these tables for MiniMedia's database, it will save you huge amounts of time, instead calling the API's yourself
+
+Tidal, Spotify, Deezer datasets were obtained through their API, took months of calling their API's 24/7
+
+MusicBrainz came mostly through their own published dataset + API
+
+Note for Deezer dataset: The Preview Url (to listen to the first x seconds of a song) and TrackToken (for playback) fields will be empty, it took too much space to store all of this for me
+
+Packed: ?GB
+
+Unpacked ?GB
+
+Loving the work I do? buy me a coffee https://buymeacoffee.com/musicmovearr
+
+## MusicBrainz
+You can officially download it here: https://metabrainz.org/datasets/postgres-dumps#musicbrainz
+
+But the official dataset is huge, a lot larger then I'm sharing, this is because I saved it more efficiently
+
+## Contains:
+Total Size: ~20GB in postgres, 270GB provided by MusicBrainz in json-format
+
+Artists: 2.5mil
+
+Albums: 4.8mil
+
+Tracks: 49mil
+
+## Spotify
+
+## Contains:
+Total Size: ~3GB in postgres
+
+Artists: 214k
+
+Albums: 408k
+
+Tracks: 2.1mil
+
+
+## Tidal
+## Contains:
+Total Size: ~15GB in postgres
+
+Artists: 456k
+
+Albums: 2.3mil
+
+Tracks: 14.6mil
+
+## Deezer
+## Contains:
+Total Size: ~120GB in postgres
+
+Artists: 4.1mil
+
+Albums: 21.7milx
+
+Tracks: 118.7mil
+
+
 # Dataset of June 07 2025
 Datasets of MusicBrainz, Tidal, Spotify
 
@@ -16,7 +80,7 @@ Unpacked 44.6GB
 Loving the work I do? buy me a coffee https://buymeacoffee.com/musicmovearr
 
 
-# MusicBrainz
+## MusicBrainz
 You can officially download it here: https://metabrainz.org/datasets/postgres-dumps#musicbrainz
 
 But the official dataset is huge, a lot larger then I'm sharing, this is because I saved it more efficiently
@@ -30,7 +94,7 @@ Albums: 4.8mil
 
 Tracks: 49mil
 
-# Spotify
+## Spotify
 
 ## Contains:
 Total Size: ~1GB in postgres
@@ -42,7 +106,7 @@ Albums: 196k
 Tracks: 1.1mil
 
 
-# Tidal
+## Tidal
 ## Contains:
 Total Size: ~3GB in postgres
 
