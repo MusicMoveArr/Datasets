@@ -32,7 +32,7 @@ Tracks: 49mil
 ## Spotify
 
 ## Contains:
-Total Size: ~3GB in postgres
+Total Size: ~3GB in postgres, 1.2GB in CSV-Format
 
 Artists: 214k
 
@@ -43,7 +43,7 @@ Tracks: 2.1mil
 
 ## Tidal
 ## Contains:
-Total Size: ~15GB in postgres
+Total Size: ~15GB in postgres, 3GB in CSV-Format
 
 Artists: 456k
 
@@ -53,7 +53,7 @@ Tracks: 14.6mil
 
 ## Deezer
 ## Contains:
-Total Size: ~120GB in postgres
+Total Size: ~120GB in postgres, 73.8GB in CSV-Format
 
 Artists: 4.1mil
 
@@ -126,6 +126,9 @@ Plus keep in mind that the dataset of Spotify is not complete, I can only fetch 
 Tidal's api rate limiter is alright but I can only make ~200 API calls per (15 minutes?), it's not super fast but compared to spotify it doesn't block me for ~15hours
 
 Plus keep in mind that the dataset of Tidal is not complete
+
+## Is the deezer dataset complete?
+The Deezer dataset is complete I can say with confidence for 99%, there surely must be a few artists I missed
 
 # CSV-Format of Deezer
 | Type | Name |
@@ -219,3 +222,40 @@ Plus keep in mind that the dataset of Tidal is not complete
 | string | TrackType |
 | string | TrackUri |
 | string | TrackISRC |
+
+# CSV-Format of Tidal
+| Type | Name |
+| ------------- | ------------- |
+| int | ArtistId | 
+| string | ArtistName | 
+| float | ArtistPopularity | 
+| string | ArtistImageHref | 
+| int | AlbumId | 
+| string | AlbumTitle | 
+| string | AlbumBarcodeId | 
+| int | AlbumNumberOfVolumes | 
+| int | AlbumNumberOfItems | 
+| string | AlbumDuration | 
+| string | AlbumExplicit | 
+| string | AlbumReleaseDate | 
+| string | AlbumCopyright | 
+| float | AlbumPopularity | 
+| string | AlbumAvailability | 
+| string | AlbumMediatags | 
+| string | AlbumImageHref | 
+| int | TrackId | 
+| int | TrackAlbumId | 
+| string | TrackTitle | 
+| string | TrackISRC | 
+| string | TrackDuration | 
+| string | TrackCopyright | 
+| bool | TrackExplicit | 
+| float | TrackPopularity | 
+| string | TrackAvailability | 
+| string | TrackMediatags | 
+| int | TrackVolumeNumber | 
+| int | TrackTrackNumber | 
+| string | TrackVersion | 
+| string | ArtistHref | 
+| string | AlbumHref | 
+| string | TrackHref | 
