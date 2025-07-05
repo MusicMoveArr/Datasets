@@ -126,3 +126,96 @@ Plus keep in mind that the dataset of Spotify is not complete, I can only fetch 
 Tidal's api rate limiter is alright but I can only make ~200 API calls per (15 minutes?), it's not super fast but compared to spotify it doesn't block me for ~15hours
 
 Plus keep in mind that the dataset of Tidal is not complete
+
+# CSV-Format of Deezer
+| Type | Name |
+| ------------- | ------------- |
+| long |ArtistId  |
+| string |ArtistName  |
+| int |ArtistNbAlbum  |
+| int |ArtistNbFan  |
+| bool |ArtistRadio  |
+| string |ArtistType  |
+| string |ArtistHref  |
+| string |ArtistImageHref  |
+| long |AlbumId  |
+| long |AlbumArtistId  |
+| string |AlbumName  |
+| string |AlbumMd5Image  |
+| int |AlbumGenreId  |
+| long |AlbumFans  |
+| string |AlbumReleaseDate  |
+| string |AlbumRecordType  |
+| bool |AlbumExplicitLyrics  |
+| int |AlbumExplicitContentLyrics  |
+| int |AlbumExplicitContentCover  |
+| string |AlbumType  |
+| string |AlbumUPC  |
+| string |Label  |
+| long |AlbumNbTracks  |
+| TimeSpan | AlbumDuration  |
+| bool |AlbumAvailable  |
+| string |AlbumHref  |
+| string |AlbumGenreName  |
+| string |AlbumGenrePicture  |
+| long |TrackId  |
+| bool |TrackReadable  |
+| string |TrackTitle  |
+| string |TrackTitleShort  |
+| string |TrackTitleVersion  |
+| string |TrackISRC  |
+| TimeSpan | TrackDuration  |
+| int |TrackPosition  |
+| int |TrackDiscNumber  |
+| long |TrackRank  |
+| string |TrackReleaseDate  |
+| bool |TrackExplicitLyrics  |
+| int |TrackExplicitContentLyrics  |
+| int |TrackExplicitContentCover  |
+| double |TrackBPM  |
+| double |TrackGain  |
+| string |TrackMd5Image  |
+| long |TrackArtistId  |
+| long |TrackAlbumId  |
+| string |TrackType  |
+| string |TrackHref  |
+
+# CSV-Format of Spotify
+| Type | Name |
+| ------------- | ------------- |
+| string | ArtistId |
+| string | ArtistName |
+| int | ArtistPopularity |
+| string | ArtistType |
+| string | ArtistUri |
+| int | ArtistTotalFollowers |
+| string | ArtistHref |
+| string | ArtistGenres |
+| string | ArtistCoverUrl |
+| string | AlbumId |
+| string | AlbumAlbumGroup |
+| string | AlbumAlbumType |
+| string | AlbumName |
+| string | AlbumReleaseDate |
+| string | AlbumReleaseDatePrecision |
+| int | AlbumTotalTracks |
+| string | AlbumType |
+| string | AlbumUri |
+| string | AlbumLabel |
+| int | AlbumPopularity |
+| string | AlbumArtistId |
+| string | AlbumCoverUrl |
+| string | AlbumUPC |
+| string | TrackId |
+| string | TrackAlbumId |
+| int | TrackDiscNumber |
+| TimeSpan | TrackDuration |
+| bool | TrackExplicit |
+| string | TrackHref |
+| bool | TrackIsPlayable |
+| string | TrackName |
+| string | TrackPreviewUrl |
+| int | TrackNumber |
+| string | TrackType |
+| string | TrackUri |
+| string | TrackISRC |
