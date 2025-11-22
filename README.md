@@ -1,3 +1,66 @@
+# Dataset of Sept 22 2025
+Datasets of MusicBrainz, Tidal, Spotify, Deezer
+
+You can use these tables for MiniMedia's database, it will save you huge amounts of time, instead calling the API's yourself
+
+Tidal, Spotify, Deezer datasets were obtained through their API, took months of calling their API's 24/7
+
+MusicBrainz came mostly through their own published dataset + API
+
+Note for Deezer dataset: The Preview Url (to listen to the first x seconds of a song) and TrackToken (for playback) fields will be empty, it took too much space to store all of this for me
+
+Packed: CSV-Format ?GB, SQL ?GB
+
+Unpacked CSV-Format ?GB, SQL ?GB
+
+Loving the work I do? buy me a coffee https://buymeacoffee.com/musicmovearr
+
+## MusicBrainz
+You can officially download it here: https://metabrainz.org/datasets/postgres-dumps#musicbrainz
+
+But the official dataset is huge, a lot larger then I'm sharing, this is because I saved it more efficiently
+
+## Contains:
+Total Size: ~25GB in postgres, 270GB provided by MusicBrainz in json-format
+
+Artists: 2.6mil
+
+Albums: 5mil
+
+Tracks: 51.1mil
+
+## Spotify
+
+## Contains:
+Total Size: ~10GB in postgres, ?GB in CSV-Format
+
+Artists: 954k
+
+Albums: 2.2k
+
+Tracks: 10.8mil
+
+
+## Tidal
+## Contains:
+Total Size: ~65GB in postgres, ?GB in CSV-Format
+
+Artists: 3.3mil
+
+Albums: 19mil
+
+Tracks: 82mil
+
+## Deezer
+## Contains:
+Total Size: ~235GB in postgres, ?GB in CSV-Format
+
+Artists: 9.1mil
+
+Albums: 34.4mil
+
+Tracks: 177mil
+
 # Dataset of July 06 2025
 Datasets of MusicBrainz, Tidal, Spotify, Deezer
 
