@@ -36,7 +36,7 @@ Total Size: ~10GB in postgres, 6.8GB in CSV-Format
 
 Artists: 954k
 
-Albums: 2.2k
+Albums: 2.2mil
 
 Tracks: 10.8mil
 
