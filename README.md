@@ -9,9 +9,9 @@ MusicBrainz came mostly through their own published dataset + API
 
 Note for Deezer dataset: The Preview Url (to listen to the first x seconds of a song) and TrackToken (for playback) fields will be empty, it took too much space to store all of this for me
 
-Packed: CSV-Format ?GB, SQL ?GB
+Packed: CSV-Format 8.7GB, SQL 16.9GB
 
-Unpacked CSV-Format ?GB, SQL ?GB
+Unpacked CSV-Format 155.4GB, SQL 117.1GB
 
 Loving the work I do? buy me a coffee https://buymeacoffee.com/musicmovearr
 
@@ -32,7 +32,7 @@ Tracks: 51.1mil
 ## Spotify
 
 ## Contains:
-Total Size: ~10GB in postgres, ?GB in CSV-Format
+Total Size: ~10GB in postgres, 6.8GB in CSV-Format
 
 Artists: 954k
 
@@ -43,7 +43,7 @@ Tracks: 10.8mil
 
 ## Tidal
 ## Contains:
-Total Size: ~65GB in postgres, ?GB in CSV-Format
+Total Size: ~65GB in postgres, 39.4GB in CSV-Format
 
 Artists: 3.3mil
 
@@ -53,7 +53,7 @@ Tracks: 82mil
 
 ## Deezer
 ## Contains:
-Total Size: ~235GB in postgres, ?GB in CSV-Format
+Total Size: ~235GB in postgres, 109.3GB in CSV-Format
 
 Artists: 9.1mil
 
