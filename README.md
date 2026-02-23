@@ -1,3 +1,76 @@
+From here on out, I'm planning to provide incremental updates, downloading, extracting etc costs everyone time and effort
+
+Not only do you need to maybe dump tables or something to push back in the new data, but extracting, waiting maybe a few hours just insertings the data
+
+I need to find a good way to provide these incremental updates still, preferibly automated
+
+So Feb 22 2026 dataset is perhaps the last full-dataset (for now)
+
+# Dataset of Feb 22 2026
+Datasets of MusicBrainz, Tidal, Spotify, Deezer
+
+You can use these tables for MiniMedia's database, it will save you huge amounts of time, instead calling the API's yourself
+
+Tidal, Spotify, Deezer datasets were obtained through their API, took months of calling their API's 24/7
+
+MusicBrainz came mostly through their own published dataset + API
+
+Note for Deezer dataset: The Preview Url (to listen to the first x seconds of a song) and TrackToken (for playback) fields will be empty, it took too much space to store all of this for me
+
+Packed: CSV-Format ?GB, SQL 21.7GB
+
+Unpacked CSV-Format 178GB, SQL 149GB
+
+Loving the work I do? buy me a coffee https://buymeacoffee.com/musicmovearr
+
+## MusicBrainz
+You can officially download it here: https://metabrainz.org/datasets/postgres-dumps#musicbrainz
+
+But the official dataset is huge, a lot larger then I'm sharing, this is because I saved it more efficiently
+
+## Contains:
+Total Size: ~25GB in postgres, 270GB provided by MusicBrainz in json-format
+
+Artists: 2.6mil
+
+Albums: 5mil
+
+Tracks: 51.1mil
+
+## Spotify
+
+## Contains:
+Total Size: ~20GB in postgres, 11.7GB in CSV-Format
+
+Artists: 1.2mil
+
+Albums: 3.7mil
+
+Tracks: 18mil
+
+
+## Tidal
+## Contains:
+Total Size: ~110GB in postgres, 55.4GB in CSV-Format
+
+Artists: 8mil
+
+Albums: 29.2mil
+
+Tracks: 117.9mil
+
+## Deezer
+## Contains:
+Total Size: ~170GB in postgres, 112.8GB in CSV-Format
+
+Artists: 9.1mil
+
+Albums: 35.5mil
+
+Tracks: 180.4mil
+
+
+
 # Dataset of Sept 22 2025
 Datasets of MusicBrainz, Tidal, Spotify, Deezer
 
