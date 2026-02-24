@@ -17,7 +17,7 @@ MusicBrainz came mostly through their own published dataset + API
 
 Note for Deezer dataset: The Preview Url (to listen to the first x seconds of a song) and TrackToken (for playback) fields will be empty, it took too much space to store all of this for me
 
-Packed: CSV-Format ?GB, SQL 21.7GB
+Packed: CSV-Format 10.2GB, SQL 21.7GB
 
 Unpacked CSV-Format 178GB, SQL 149GB
 
@@ -86,7 +86,7 @@ Packed: CSV-Format 8.7GB, SQL 16.9GB
 
 Unpacked CSV-Format 155.4GB, SQL 117.1GB
 
-Loving the work I do? buy me a coffee https://buymeacoffee.com/musicmovearr
+Loving the work I do buy me a coffee https://buymeacoffee.com/musicmovearr
 
 ## MusicBrainz
 You can officially download it here: https://metabrainz.org/datasets/postgres-dumps#musicbrainz
@@ -149,7 +149,7 @@ Packed: CSV-Format 4.6GB, SQL 16.2GB
 
 Unpacked CSV-Format 82.2GBGB, SQL 114.3GB
 
-Loving the work I do? buy me a coffee https://buymeacoffee.com/musicmovearr
+Loving the work I do buy me a coffee https://buymeacoffee.com/musicmovearr
 
 ## MusicBrainz
 You can officially download it here: https://metabrainz.org/datasets/postgres-dumps#musicbrainz
@@ -213,7 +213,7 @@ Packed: 4.5GB
 
 Unpacked 44.6GB
 
-Loving the work I do? buy me a coffee https://buymeacoffee.com/musicmovearr
+Loving the work I do buy me a coffee https://buymeacoffee.com/musicmovearr
 
 
 ## MusicBrainz
