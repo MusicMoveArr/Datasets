@@ -6,6 +6,17 @@ I need to find a good way to provide these incremental updates still, preferibly
 
 So Feb 22 2026 dataset is perhaps the last full-dataset (for now)
 
+You can download the incremental changes here: https://mega.nz/folder/QqQWkJKI#LVtUdSYU8hxEuD_XsylYRA
+
+# How to apply the incremental changes
+```
+for f in $(ls changes_*.sql.gz | sort); do
+    echo "Restoring $f"
+    gunzip -c "$f" | psql -d minimedia -h 192.168.1.2 -U postgres -q
+done
+
+```
+
 # Dataset of Feb 22 2026
 Datasets of MusicBrainz, Tidal, Spotify, Deezer
 
