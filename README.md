@@ -17,6 +17,28 @@ done
 
 ```
 
+# Dataset incremental 2026-04-04
+| Service | Type | Amount | 
+| --- | --- | --- |
+| Deezer | Artist | 9.4mil |
+| Deezer | Albums | 41mil |
+| Deezer | Tracks | 206mil |
+| Tidal | Artist | 8.1mil |
+| Tidal | Albums | 29.6mil |
+| Tidal | Tracks | 117mil |
+| Spotify | Artist | 1.2mil |
+| Spotify | Albums | 3.7mil |
+| Spotify | Tracks | 18mil |
+| MusicBrainz | Artist | 2.7mil |
+| MusicBrainz | Albums | 5.5mil |
+| MusicBrainz | Tracks | 54.3mil |
+| SoundCloud | Artist | 23k |
+| SoundCloud | Albums | 36k |
+| SoundCloud | Tracks | 100k |
+
+Note: Spotify pulling is discontinued due API limitations/payment requirement
+SoundCloud pulling started at 2026-04-04, be patient till pull is complete
+
 # Dataset of Feb 22 2026
 Datasets of MusicBrainz, Tidal, Spotify, Deezer
 
