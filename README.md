@@ -1,8 +1,6 @@
 From here on out, I'm planning to provide incremental updates, downloading, extracting etc costs everyone time and effort
 
-Not only do you need to maybe dump tables or something to push back in the new data, but extracting, waiting maybe a few hours just insertings the data
-
-I need to find a good way to provide these incremental updates still, preferibly automated
+Not only do you need to maybe dump tables or something to push back in the new data, but extracting, waiting maybe a few hours just inserting the data
 
 So Feb 22 2026 dataset is perhaps the last full-dataset (for now)
 
@@ -17,26 +15,27 @@ done
 
 ```
 
-# Dataset incremental 2026-04-04
+# Dataset incremental 2026-04-22
 | Service | Type | Amount | 
 | --- | --- | --- |
 | Deezer | Artist | 9.4mil |
-| Deezer | Albums | 41mil |
-| Deezer | Tracks | 206mil |
+| Deezer | Albums | 41.2mil |
+| Deezer | Tracks | 206.1mil |
 | Tidal | Artist | 8.1mil |
 | Tidal | Albums | 29.6mil |
-| Tidal | Tracks | 117mil |
+| Tidal | Tracks | 117.9mil |
 | Spotify | Artist | 1.2mil |
 | Spotify | Albums | 3.7mil |
 | Spotify | Tracks | 18mil |
 | MusicBrainz | Artist | 2.7mil |
 | MusicBrainz | Albums | 5.5mil |
 | MusicBrainz | Tracks | 54.3mil |
-| SoundCloud | Artist | 23k |
-| SoundCloud | Albums | 36k |
-| SoundCloud | Tracks | 100k |
+| SoundCloud | Artist | 1.9mil |
+| SoundCloud | Albums | 1.8mil |
+| SoundCloud | Tracks | 4.1mil |
 
 Note: Spotify pulling is discontinued due API limitations/payment requirement
+
 SoundCloud pulling started at 2026-04-04, be patient till pull is complete
 
 # Dataset of Feb 22 2026
