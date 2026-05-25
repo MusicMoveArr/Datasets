@@ -15,14 +15,14 @@ done
 
 ```
 
-# Dataset incremental 2026-04-22
+# Dataset incremental 2026-05-25
 | Service | Type | Amount | 
 | --- | --- | --- |
 | Deezer | Artist | 9.4mil |
-| Deezer | Albums | 41.2mil |
+| Deezer | Albums | 41.6mil |
 | Deezer | Tracks | 206.1mil |
 | Tidal | Artist | 8.1mil |
-| Tidal | Albums | 29.6mil |
+| Tidal | Albums | 29.9mil |
 | Tidal | Tracks | 117.9mil |
 | Spotify | Artist | 1.2mil |
 | Spotify | Albums | 3.7mil |
@@ -30,13 +30,18 @@ done
 | MusicBrainz | Artist | 2.7mil |
 | MusicBrainz | Albums | 5.5mil |
 | MusicBrainz | Tracks | 54.3mil |
-| SoundCloud | Artist | 1.9mil |
-| SoundCloud | Albums | 1.8mil |
-| SoundCloud | Tracks | 4.1mil |
+| SoundCloud | Artist | 3.08mil |
+| SoundCloud | Albums | 2.8mil |
+| SoundCloud | Tracks | 10.3mil |
+| Last.Fm | Artist | 5k |
+| Last.Fm | Albums | 9k |
+| Last.Fm | Tracks | 19k |
 
 Note: Spotify pulling is discontinued due API limitations/payment requirement
 
 SoundCloud pulling started at 2026-04-04, be patient till pull is complete
+
+Last.Fm pulling started at 2026-05-25, be patient till pull is complete
 
 # Dataset of Feb 22 2026
 Datasets of MusicBrainz, Tidal, Spotify, Deezer
