@@ -15,27 +15,27 @@ done
 
 ```
 
-# Dataset incremental 2026-05-25
+# Dataset incremental 2026-06-18
 | Service | Type | Amount | 
 | --- | --- | --- |
-| Deezer | Artist | 9.4mil |
-| Deezer | Albums | 41.6mil |
+| Deezer | Artist | 9.5mil |
+| Deezer | Albums | 42mil |
 | Deezer | Tracks | 206.1mil |
-| Tidal | Artist | 8.1mil |
-| Tidal | Albums | 29.9mil |
-| Tidal | Tracks | 117.9mil |
+| Tidal | Artist | 8.2mil |
+| Tidal | Albums | 31.8mil |
+| Tidal | Tracks | 126.2mil |
 | Spotify | Artist | 1.2mil |
 | Spotify | Albums | 3.7mil |
 | Spotify | Tracks | 18mil |
-| MusicBrainz | Artist | 2.7mil |
-| MusicBrainz | Albums | 5.5mil |
-| MusicBrainz | Tracks | 54.3mil |
-| SoundCloud | Artist | 3.08mil |
+| MusicBrainz | Artist | 2.8mil |
+| MusicBrainz | Albums | 5.6mil |
+| MusicBrainz | Tracks | 54.8mil |
+| SoundCloud | Artist | 3.4mil |
 | SoundCloud | Albums | 2.8mil |
-| SoundCloud | Tracks | 10.3mil |
-| Last.Fm | Artist | 5k |
-| Last.Fm | Albums | 9k |
-| Last.Fm | Tracks | 19k |
+| SoundCloud | Tracks | 10.5mil |
+| Last.Fm | Artist | 423k |
+| Last.Fm | Albums | 998k |
+| Last.Fm | Tracks | 1.6mil |
 
 Note: Spotify pulling is discontinued due API limitations/payment requirement
 
